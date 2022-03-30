@@ -1,0 +1,17 @@
+table.gfsac-center {
+    width: 100%;
+}
+table.gfsac-center tr:nth-child(even) {
+    background: #e1e0e0;
+}
+
+table.gfsac-center td {
+    padding: 10px 10px;
+}
+
+table.gfsac-center th {
+    text-align: left;
+}
+table.gfsac-center td.center {
+    text-align: center;
+}
