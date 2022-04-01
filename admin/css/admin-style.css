@@ -1,5 +1,6 @@
 table.gfsac-center {
     width: 100%;
+    border: 1px solid #e6e3e3;
 }
 table.gfsac-center tr:nth-child(even) {
     background: #e0e4ee;
@@ -7,13 +8,13 @@ table.gfsac-center tr:nth-child(even) {
 table.gfsac-center tr:nth-child(odd) {
     background: #f0f0f0;
 }
-
-table.gfsac-center td {
-    padding: 10px 10px;
-}
-
 table.gfsac-center th {
     text-align: left;
+    padding: 10px 10px;
+    background-color: #b5cfe6;
+}
+table.gfsac-center td {
+    padding: 5px 10px;
 }
 table.gfsac-center td.center {
     text-align: center;

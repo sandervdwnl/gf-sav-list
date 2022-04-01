@@ -48,11 +48,11 @@ if ( ! function_exists( 'gfsacl_page' ) ) {
 <table class="gfsac-center">
 	<tr>
 	<th>Form ID</th>
-		<th>Sent to</th>
+		<th>Sent To</th>
 		<th>IP-address</th>
-		<th>Form title</th>
-		<th>Link token</th>
-		<th>Date created</th>
+		<th>Form Title</th>
+		<th>Link Token</th>
+		<th>Date Created</th>
 	</tr>
 		<?php
 		if ( is_array( $results ) || is_object( $results ) ) {
