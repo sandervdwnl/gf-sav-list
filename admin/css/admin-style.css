@@ -2,7 +2,10 @@ table.gfsac-center {
     width: 100%;
 }
 table.gfsac-center tr:nth-child(even) {
-    background: #e1e0e0;
+    background: #e0e4ee;
+}
+table.gfsac-center tr:nth-child(odd) {
+    background: #f0f0f0;
 }
 
 table.gfsac-center td {
@@ -14,4 +17,8 @@ table.gfsac-center th {
 }
 table.gfsac-center td.center {
     text-align: center;
+}
+table.gfsac-center td {
+    font-weight: 400;
+    font-size: 1rem;
 }
